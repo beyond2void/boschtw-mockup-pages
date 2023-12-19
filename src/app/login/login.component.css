@@ -1,0 +1,109 @@
+.button-style {
+    background-color: #1e75f7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+     
+.bold-hr {
+    width: 96%;
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height to make it thicker */
+    background-color: lightgrey; /* Change the color if needed */
+}
+
+.box-login {
+    border: 0px solid black ;
+    width: 400px;
+    height: 750px;
+    background-color: #f7f7f7;
+    padding: 0 30px;
+    position: relative;
+}
+
+.box-login-info {
+    background-color: white;
+    height: 610px;
+    position: absolute;
+    top: 120px;
+    left: 20px; /* 左边距 */
+    right: 20px; /* 右边距 */
+}
+
+.headers {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    margin: 0;
+  }
+
+
+.font-style-1 {
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.font-style-2 {
+    font-size:15px;
+    margin: 0 auto;
+    margin-left: 15px;
+}
+ 
+
+input {
+    border: none;
+    padding: 10px;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.title-style {
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0);
+    margin: 8px auto;
+}
+
+.title-style-2 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0);
+    margin: 8px auto;
+}
+
+.center-item {
+    margin: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-link-p {
+    font-size: 20px;
+    color: #219adb;
+    font-weight: 400;
+    
+}
+
+a:visited {
+    color: #219adb; /* 已访问链接的颜色 */
+}
+
+a:hover {
+    color:#b6bf02 ;
+}
+
+.box-footer {
+    margin-top: 60px;
+}
